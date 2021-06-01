@@ -31,6 +31,6 @@ http.createServer(function (req,res) {
 //	var q = url.parse(req.url, true).query;
 //	var date = q.year + " " + q.month;
 
-}).listen(PORT);
+}).listen(port);
 
 console.log("requested working......")
