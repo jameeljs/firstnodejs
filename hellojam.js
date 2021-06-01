@@ -2,6 +2,7 @@ var http = require('http');
 var url = require('url');
 var fs = require('fs');
 var url = require('url');
+const port = process.env.PORT || 5000
 
 http.createServer(function (req,res) {
 
@@ -30,6 +31,6 @@ http.createServer(function (req,res) {
 //	var q = url.parse(req.url, true).query;
 //	var date = q.year + " " + q.month;
 
-}).listen(8080);
+}).listen(PORT);
 
 console.log("requested working......")

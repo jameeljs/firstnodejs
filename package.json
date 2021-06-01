@@ -4,6 +4,7 @@
   "description": "simple web ",
   "main": "hellojam.js",
   "scripts": {
+    "start": "node hellojam.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
