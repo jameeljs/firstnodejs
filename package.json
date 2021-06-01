@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "14.17.0",
+  "description": "simple web ",
+  "main": "hellojam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameeljs/firstnodejs.git"
+  },
+  "author": "jameel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameeljs/firstnodejs/issues"
+  },
+  "homepage": "https://github.com/jameeljs/firstnodejs#readme"
+}
